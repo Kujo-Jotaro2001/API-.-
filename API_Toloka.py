@@ -4,8 +4,8 @@ url_projects = "https://sandbox.toloka.yandex.com/api/v1/projects"
 url_pools = "https://sandbox.toloka.yandex.com/api/v1/pools"
 url_tasks = "https://sandbox.toloka.yandex.com/api/v1/tasks"
 
-auth_token = ""
-headers = {'Authorization': f"OAuth {auth_token}", "Content-type": "application/JSON"}
+OAuth_token = ""
+headers = {'Authorization': f"OAuth {OAuth_token}", "Content-type": "application/JSON"}
 
 project_data = {
     "public_name": "Выделите все дорожные знаки на картинке (Final launch)",
